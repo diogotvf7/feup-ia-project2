@@ -1,11 +1,6 @@
 import seaborn as sns
-
-GRADE = ['LGG','GBM']
-PROJECT = ['TCGA-GBM', 'TCGA-GBM']
-GENDER = ['Male', 'Female']
-RACE = ['White', 'Black or African American', 'Asian', 'American Indian or Alaska Native']
-GENE = ['Not Mutated', 'Mutated']
-
+import matplotlib.pyplot as plt
+from constants import GRADE, GENDER
 
 
 def gradePlot(df):
