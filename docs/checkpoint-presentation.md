@@ -22,15 +22,13 @@ We decided to use different machine learning algorithms to classify glioma patie
 - K Nearest Neighbors (KNN)
 - Random Forest (RF)
 - AdaBoost
-- Neural Networks (NN) (?)
+- Neural Networks (NN)
 
 We will use the Scikit-Learn Python library to implement these algorithms. We will also use the Pandas library to manipulate the dataset and the Matplotlib and Seaborn libraries to plot the results.
 
-We will also use the xverse library to perform feature selection. We will use the following methods:
-  - Weight of Evidence (WOE)
-  - Recursive Feature Elimination (RFE)
-  - Random Forest (RF)
   - Least Absolute Shrinkage and Selection Operator (LASSO)
+  - Random Forest (RF)
+  - Recursive Feature Elimination (RFE)
   
 We will also use ensemble learning to combine the predictions of multiple models. We will use the soft-voting approach to combine the predictions of the models. We will construct 16 ensemble model combinations using 3, 4, and 5 models.
 
