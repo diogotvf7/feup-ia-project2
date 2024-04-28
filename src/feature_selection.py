@@ -50,7 +50,7 @@ print()
 
 # 3. Recursive feature elimination
 rfe = RFE(estimator=LogisticRegression(max_iter=1000)) # we can increase n_features_to_select if we want
-rfe.fit(x_train, y_train)
+rfe.fit(x_train_scaled, y_train)
 print("3. Selected features using RFE:", len_selected_features(rfe.support_))
 print(get_selected_features_names(rfe.support_))
 
